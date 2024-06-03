@@ -5,7 +5,7 @@ Nếu bạn có bất kỳ câu hỏi, góp ý hoặc đề xuất cải tiến,
 - **Tên**: Lê Minh Nhựt
 - **Email**: nhutle0121@gmail.com
 - **Twitter**: [@twitterhandle](https://twitter.com/twitterhandle)
-- **LinkedIn**: [nameLinkedIn](https://www.linkedin.com/in/yourname/)
+- **LinkedIn**: [myLinkedIn](https://www.linkedin.com/in/yourname/)
 - **Website**: https://github.com/leminhnhut122/MyWebsite
 
 Chúng tôi rất hoan nghênh mọi ý kiến đóng góp và sẵn sàng hỗ trợ bạn!
