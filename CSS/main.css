@@ -48,7 +48,7 @@ text-decoration: none; /* Loại bỏ gạch chân */
 font-family: Arial;}
 
 #dangnhap {
-    background-color: rgb(59, 137, 139); 
+    background-color: rgb(0, 0, 0); 
     border-radius: 5px; /* Độ cong của các góc */
     padding: 5px;
   }
