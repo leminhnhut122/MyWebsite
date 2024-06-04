@@ -8,4 +8,4 @@ Nếu bạn có bất kỳ câu hỏi, góp ý hoặc đề xuất cải tiến,
 - **LinkedIn**: [myLinkedIn](https://www.linkedin.com/in/yourname/)
 - **Website**: https://github.com/leminhnhut122/MyWebsite
 
-Chúng tôi rất hoan nghênh mọi ý kiến đóng góp và sẵn sàng hỗ trợ bạn!
+Tôi rất hoan nghênh mọi ý kiến đóng góp và sẵn sàng hỗ trợ bạn!
