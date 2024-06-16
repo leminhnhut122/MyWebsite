@@ -1,0 +1,296 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.ten {position: absolute; left: 160px; font-size: 30px;}
+/* thanh điều hướng */
+.navbar {
+    background-color: #ffffff;
+    color: #000000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 80px 20px;
+}
+
+/* icon menu */
+.menu-icon {
+    cursor: pointer;
+    font-size: 40px; 
+    position: absolute; 
+    left: 86%;
+}    
+
+/* bảng hiển thị menu */
+.menu {
+    display: none;
+    position: absolute;
+    top: 22.5%;
+    left: 85%;
+    z-index: 1000;
+    background-image: url(../RES/anhmenu);
+    width: 850px; height: 690px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+}
+
+.menu ul {
+    list-style-type: none;
+    padding: 200px;
+    margin: -725px;
+    position: absolute; left: 70%;
+    transition: color 0.3s ease;
+}
+.menu ul :hover {color: rgb(1, 69, 195);}
+.menu ul li {
+    padding: 25px;
+}
+/* mau chu menu */
+.menu ul li a {
+    color: #000000;
+    text-decoration: none;
+    display: block;
+    padding: 0px;
+    font-family:Arial, Helvetica, sans-serif;
+    border: none;
+    font-size: 25px;
+    
+
+
+}
+
+.menu.show {
+    display: block;
+}
+
+/* body */
+/* H1 */
+@keyframes moveGradient {
+    0% { background-position: 0 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0 50%; }
+  }
+  
+  .animated-text {
+    padding: 20px;
+    text-align: center;
+  }
+  
+h1 {
+    font-family: Arial, sans-serif;
+  }
+
+  /* hello */
+  .patterned-text { font-size: 200px;
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab);
+    background-size: 400% 400%;
+    color: transparent;
+    background-clip: text;
+    -webkit-background-clip: text;
+    animation: moveGradient 10s ease infinite;
+    display: inline-block;
+    padding: 0 5px;
+    border-radius: 5px;
+    font-weight: bold;
+    margin-top: 30px;
+    font-family:cursive;
+  }
+
+
+  .text {background-color: #f8f8f8;height: 680px;}
+
+  p { font-size: 30px; position: absolute;left: 26%;top: 500px; font-family:serif;}
+
+
+/* anh1 */
+.image-container1 { top: 350px; margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1500px; /* Kích thước ảnh */
+    height: 400px;
+  }
+  
+  .image-container1 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu tối với độ mờ */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container1:hover .overlay {
+    opacity: 1;
+  }
+  
+  .image-container1:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi di chuột vào */
+  }
+
+#text1 { position: absolute; top: 950px ; left: 40%; font-size: 60px; color: #fff;}
+
+
+
+/* anh2 */
+.image-container2 { top: 340px; margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1500px; /* Kích thước ảnh */
+    height: 400px;
+  }
+  
+  .image-container2 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu tối với độ mờ */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container2:hover .overlay {
+    opacity: 1;
+  }
+  
+  .image-container2:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi di chuột vào */
+  }
+
+  #text2 { position: absolute; top: 1350px ; left: 35%; font-size: 60px; color: #fff;}
+
+  /* anh3 */
+.image-container3 { top: 335px; margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1500px; /* Kích thước ảnh */
+    height: 400px;
+  }
+  
+  .image-container3 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 90%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu tối với độ mờ */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container3:hover .overlay {
+    opacity: 1;
+  }
+  
+  .image-container3:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi di chuột vào */
+  }
+
+  #text3 { position: absolute; top: 1750px ; left: 35%; font-size: 60px; color: #fff;}
+
+   /* anh4 */
+.image-container4 { top: 295px; margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    width: 1500px; /* Kích thước ảnh */
+    height: 400px;
+  }
+  
+  .image-container4 img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+  }
+  
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 86%;
+    background-color: rgba(0, 0, 0, 0.5); /* Màu tối với độ mờ */
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+  
+  .image-container4:hover .overlay {
+    opacity: 1;
+  }
+  
+  .image-container4:hover img {
+    transform: scale(1.1); /* Phóng to ảnh khi di chuột vào */
+  }
+
+
+  #text4 { position: absolute; top: 2090px ; left: 35%; font-size: 60px; color: #fff;}
+
+
+/* phan3 */
+  h2 {position: absolute; margin-top: 350px; font-size: 47px; left: 30%;}
+
+  h5 {position: absolute;top: 2530px;  font-size: 25px; left: 18.5%;  opacity: 0.5; font-family:sans-serif;} 
+
+
+  a { position: absolute; margin-top: 600px; font-size: 40px; left: 40%;color:red; text-decoration: none; border: 2px solid #ccc; /* Độ dày và màu sắc của khung viền */
+    padding: 20px; /* Khoảng cách từ văn bản đến khung viền */
+    border-radius: 10px; /* Độ cong của góc khung viền */
+   
+  }
+ .bordered-box {  transition: color 0.3s ease;}
+ .bordered-box :hover {background-color: #000000;}
+
+
+/* chan trang */
+
+.footer {
+  background-color: #f8f8f8; /* Màu nền cho footer */
+  padding: 20px 0; /* Khoảng cách giữa nội dung và viền footer */
+  width: 100%; height: 670px;
+  bottom: -2850px;
+  position: absolute;
+}
+
+h3 {font-size: 27px; margin-top: 110px; margin-left: 8%;}
+
+
+/* cac lien ket */
+.lienket1 {padding: 20px; color: grey; font-size: 25px; margin-left: 6.5%;  transition: color 0.3s ease;
+}
+.lienket1 :hover {color: #000000;}
+.caclienket1 {
+  margin-bottom: 10px; /* Khoảng cách dưới mỗi phần tử element */
+  padding: 5px; /* Khoảng cách bên trong mỗi phần tử element */
+}
+
+.lienket2 {padding: 20px; color: grey; font-size: 25px; position: absolute; left: 40%; margin-top: -15.7%;  transition: color 0.3s ease;
+}
+.lienket2 :hover {color: #000000;}
+.caclienket2 {
+  margin-bottom: 10px; /* Khoảng cách dưới mỗi phần tử element */
+  padding: 5px; /* Khoảng cách bên trong mỗi phần tử element */
+}
+
+/* bản quyền */
+h4 {font-size: 25px; margin-top: 50px; margin-left: 8%;}
+h6 {font-size: 22px; margin-top: 45px; margin-left: 8%; color: grey;}
